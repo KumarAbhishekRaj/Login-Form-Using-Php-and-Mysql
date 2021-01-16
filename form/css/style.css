@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    background-color: rgba(0, 0green, 0blue, 0.1alpha);
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,
+p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+p.submitMsg {
+    font-size: 20px;
+    color: rgb(31, 233, 31);
+}
+
+input,
+textarea {
+    width: 80%;
+    outline: none;
+    margin: 8px auto;
+    padding: 7px;
+    font-size: 11px;
+    border: 2px solid black;
+    border-radius: 16px;
+    background-color: rgba(252, 204, 248, 0.918);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background: purple;
+    padding: 8px 15px;
+    border-radius: 31px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* other js code */
